@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Website</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- HOME SECTION WITH NAVBAR -->
+  <section id="home">
+    <nav>
+      <div class="logo">
+        <img src="download.png" alt="Logo">
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Review</a></li>
+        <li><a href="#order">Order</a></li>
+      </ul>
+      <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="men_text">
+        <h1>Get Fresh <span>Food</span><br>in an Easy Way</h1>
+        <p>
+          is your one-stop solution for accessing the freshest, high-quality food with
+          minimal effort. Whether you're looking for farm-fresh produce, locally sourced ingredients, or healthy meal options,
+          we simplify the process of getting fresh food delivered right to your door.
+          With an intuitive interface and easy ordering, you'll enjoy quick and convenient access
+          to a wide variety of organic, sustainable, and delicious food products.
+        </p>
+        <div class="main_btn">
+          <a href="#order">Order Now</a>
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+
+      <div class="main_image">
+        <img src="side.webp" alt="Food Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <div class="about" id="about">
+    <div class="about_main">
+      <div class="image">
+        <img src="plate2.jpg" alt="Food Plate">
+      </div>
+      <div class="about_text">
+        <h1><span>About</span> Us</h1>
+        <h3>Why Choose Us?</h3>
+        <p>
+          We prioritize delivering the freshest, highest-quality food directly to your door,
+          sourced from trusted local farmers and suppliers. Our easy-to-use platform ensures a seamless
+          shopping experience, offering a variety of organic, sustainably sourced products to fit your lifestyle.
+          We’re committed to transparency with fair, affordable pricing and no hidden fees.
+        </p>
+        <a href="#order" class="about_btn">Order Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU SECTION -->
+  <div class="menu" id="menu">
+    <h1>Our <span>Menu</span></h1>
+    <div class="menu_box">
+      <div class="menu_card">
+        <div class="menu_image">
+          <img src="burger.avif" alt="Burger">
+        </div>
+        <div class="menu_info">
+          <h2>Burger</h2>
+        </div>
+      </div>
+
+      <div class="menu_card">
+        <div class="menu_image">
+          <img src="Pizza.avif" alt="Pizza">
+        </div>
+        <div class="menu_info">
+          <h2>Pizza</h2>
+        </div>
+      </div>
+
+      <div class="menu_card">
+        <div class="menu_image">
+          <img src="pasta.avif" alt="Pasta">
+        </div>
+        <div class="menu_info">
+          <h2>Pasta</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALLERY SECTION -->
+  <div class="gallery" id="gallery">
+    <h1>Our <span>Gallery</span></h1>
+    <div class="gallery_box">
+      <div class="gallery_card">
+        <img src="d1.avif" alt="Delicious Food 1">
+      </div>
+      <div class="gallery_card">
+        <img src="d2.avif" alt="Delicious Food 2">
+      </div>
+      <div class="gallery_card">
+        <img src="d3.avif" alt="Delicious Food 3">
+      </div>
+      <div class="gallery_card">
+        <img src="d4.webp" alt="Delicious Food 4">
+      </div>
+      <div class="gallery_card">
+        <img src="d5.avif" alt="Delicious Food 5">
+      </div>
+      <div class="gallery_card">
+        <img src="d6.avif" alt="Delicious Food 6">
+      </div>
+    </div>
+  </div>
+
+  <!-- REVIEWS SECTION -->
+  <section class="reviews" id="reviews">
+    <h1>What Our <span>Customers Say</span></h1>
+    <div class="reviews_box">
+      <div class="review_card">
+        <p>"The food quality is amazing and delivery was super fast!"</p>
+        <h3>— John Doe</h3>
+        <div class="stars">
+          ★★★★☆
+        </div>
+      </div>
+      <div class="review_card">
+        <p>"Excellent service and friendly staff. Highly recommended."</p>
+        <h3>— Jane Smith</h3>
+        <div class="stars">
+          ★★★★★
+        </div>
+      </div>
+      <div class="review_card">
+        <p>"I loved the ambiance and the taste of every dish."</p>
+        <h3>— Mark Wilson</h3>
+        <div class="stars">
+          ★★★★☆
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER SECTION -->
+  <section class="order" id="order">
+    <h1>Place Your <span>Order</span></h1>
+    <div class="order_form">
+      <form>
+        <div class="form_group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form_group">
+          <label for="contact">Contact Number</label>
+          <input type="tel" id="contact" placeholder="Your Phone Number" required>
+        </div>
+        <div class="form_group">
+          <label for="address">Delivery Address</label>
+          <textarea id="address" placeholder="Your Address" required></textarea>
+        </div>
+        <div class="form_group">
+          <label for="item">Select Item</label>
+          <select id="item" required>
+            <option value="">Choose an item</option>
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+            <option value="pasta">Pasta</option>
+            <option value="salad">Salad</option>
+            <option value="dessert">Dessert</option>
+          </select>
+        </div>
+        <div class="form_group">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" min="1" value="1" required>
+        </div>
+        <div class="form_group">
+          <button type="submit">Order Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
